@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<link rel="stylesheet" type="text/css" href="optimisation.css" />
+		<script src="function.js"></script>
+</head>
+<body>
+	<div id="outer">
+		<div id="mobile_menu">
+			
+		</div>	
+			<a href="#"><div class="_menu"><button onClick = "transition()" class="mobilemenu mobilemenu_transition"><span></span></button>
+			</div></a>
+			
+			
+			
+<script>
+  (function() {
+
+    "use strict";
+
+    var toggles = document.querySelectorAll(".mobilemenu");
+
+    for (var i = toggles.length - 1; i >= 0; i--) {
+      var toggle = toggles[i];
+      toggleHandler(toggle);
+    };
+
+    function toggleHandler(toggle) {
+      toggle.addEventListener( "click", function(e) {
+        e.preventDefault();
+        (this.classList.contains("act") === true) ? this.classList.remove("act") : this.classList.add("act");
+      });
+    }
+
+  })();
+</script>
+			
+		
+</body>
+</html>
