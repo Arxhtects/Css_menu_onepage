@@ -1,8 +1,11 @@
+.one {
+	font-size: 30px;
+}
+
 /*mobile Menu */
 
 .mobilemenu{
 	z-index: 21;
-	margin-top: -80px;
 	margin-right: -7px;
 	position:relative;
 	width:50px;
@@ -85,6 +88,7 @@
 	overflow: hidden; 
 	position: fixed;
 	background-color: #f3f3f3;
+	text-align: center;
 	
 	-webkit-transition-duration:.3s,.3s;
 	transition-duration:.3s,.3s;
