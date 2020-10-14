@@ -17,3 +17,9 @@ function transition() {
       }
     }
 }
+
+$(document).ready(function() {
+$(".mobile_menu").on("click", function() {
+  $(".mobilemenu").slideToggle();
+}
+}
